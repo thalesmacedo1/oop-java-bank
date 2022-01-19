@@ -1,7 +1,7 @@
 public class SavingsAccount {
-    public int branch;
-    public int number;
-    public int balance;
+    private int branch;
+    private int number;
+    private int balance;
 
     public void withdraw(){
 
@@ -11,5 +11,17 @@ public class SavingsAccount {
     }
     public void transfer(){
 
+    }
+
+    public int getBranch() {
+        return branch;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public int getBalance() {
+        return balance;
     }
 }
