@@ -1,27 +1,17 @@
-public class CheckingAccount {
-    private int branch;
-    private int number;
-    private int balance;
+public class CheckingAccount extends Account {
 
-    public void withdraw(){
-
-    }
-    public void deposit(){
-
-    }
-    public void transfer(){
+    @Override
+    public void withdraw(double value) {
 
     }
 
-    public int getBranch() {
-        return branch;
+    @Override
+    public void deposit(double value) {
+
     }
 
-    public int getNumber() {
-        return number;
-    }
+    @Override
+    public void transfer(double value, Account DestinationAccount) {
 
-    public int getBalance() {
-        return balance;
     }
 }
